@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dealer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFH-Rd-eVe">
+                                <rect key="frame" x="130" y="28" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="rNd-3D-3tL">
+                                <rect key="frame" x="21" y="63" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ogt-kf-Lds">
+                                <rect key="frame" x="61" y="63" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="TTr-aP-YYj">
+                                <rect key="frame" x="101" y="63" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="0yE-6H-Sn3">
+                                <rect key="frame" x="141" y="63" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="wzc-rw-C4X">
+                                <rect key="frame" x="181" y="63" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="pn3-wv-gSp">
+                                <rect key="frame" x="21" y="302" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="8ku-eh-3Hi">
+                                <rect key="frame" x="61" y="302" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="zNH-vZ-wBW">
+                                <rect key="frame" x="101" y="302" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="nhV-9Z-9g1">
+                                <rect key="frame" x="141" y="302" width="118" height="176"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-back.png" translatesAutoresizingMaskIntoConstraints="NO" id="wtQ-8g-3W2">
+                                <rect key="frame" x="181" y="302" width="118" height="176"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYq-dK-nad">
+                                <rect key="frame" x="21" y="509" width="46" height="30"/>
+                                <state key="normal" title="Stand">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapStandButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="la6-z6-Jp9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myd-oe-h5N">
+                                <rect key="frame" x="247" y="509" width="46" height="30"/>
+                                <state key="normal" title="Hit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapHitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uei-dN-3Pa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYc-sp-Eoc">
+                                <rect key="frame" x="130" y="273" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="dealerCard1" destination="rNd-3D-3tL" id="f7P-6T-gIe"/>
+                        <outlet property="dealerCard2" destination="Ogt-kf-Lds" id="7Dp-J9-lKC"/>
+                        <outlet property="dealerCard3" destination="TTr-aP-YYj" id="5Lv-NU-h53"/>
+                        <outlet property="dealerCard4" destination="0yE-6H-Sn3" id="c2O-CC-XXK"/>
+                        <outlet property="dealerCard5" destination="wzc-rw-C4X" id="aA9-D0-f5D"/>
+                        <outlet property="hitButton" destination="myd-oe-h5N" id="8xB-pY-zht"/>
+                        <outlet property="playerCard1" destination="pn3-wv-gSp" id="CBY-dY-t7n"/>
+                        <outlet property="playerCard2" destination="8ku-eh-3Hi" id="0KY-2A-hPt"/>
+                        <outlet property="playerCard3" destination="zNH-vZ-wBW" id="d04-1s-8IR"/>
+                        <outlet property="playerCard4" destination="nhV-9Z-9g1" id="YdB-cO-JAH"/>
+                        <outlet property="playerCard5" destination="wtQ-8g-3W2" id="h30-5L-Kca"/>
+                        <outlet property="standButton" destination="LYq-dK-nad" id="0hd-QL-Cv0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="card-back.png" width="118" height="176"/>
+    </resources>
+</document>
